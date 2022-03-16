@@ -7,4 +7,4 @@ RUN pip install -r requirements.txt
 COPY app /app
 WORKDIR /app
 ENTRYPOINT ["python"]
-CMD ["flask_lab.py"]
+CMD ["flask_model.py"]
